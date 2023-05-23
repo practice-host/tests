@@ -53,12 +53,10 @@
       blackScreen.addEventListener("animationend", function() {
         if (blackScreen.classList.contains("slide-up")) {
           setTimeout(function() {
-            blackScreen.classList.remove("slide-up");
-            blackScreen.classList.add("slide-down");
             window.location.href = "index2.html";
-          }, 1500);
+          }, 1000);
         } else if (blackScreen.classList.contains("slide-down")) {
-          blackScreen.remove();
+         
         }
       });
     </script>
